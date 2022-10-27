@@ -27,6 +27,6 @@ impl Solution {
 // @lc code=end
 
 #[test]
-fn test_1_two_one() {
+fn test() {
     assert_eq!(Solution::two_sum(vec![2, 7, 11, 15], 9), vec![0, 1]);
 }
