@@ -63,7 +63,7 @@ impl Solution {
 // @lc code=end
 
 #[test]
-fn test() {
+fn test2() {
     let l = Some(Box::new(ListNode {
         val: 2,
         next: Some(Box::new(ListNode {
