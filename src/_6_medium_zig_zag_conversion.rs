@@ -58,9 +58,19 @@ impl Solution {
 #[test]
 fn test6() {
     assert_eq!(
-        Solution::convert(String::from("PAYPALISHIRING"), 4),
+        con(String::from("PAYPALISHIRING"), 4),
         String::from("PINALSIGYAHRPI")
     );
 
-    assert_eq!(Solution::convert(String::from("A"), 1), String::from("A"));
+    assert_eq!(con(String::from("A"), 1), String::from("A"));
+}
+
+fn con(s: String, row: i32) -> String {
+    let mut v: Vec<_> = (0..row)
+        .chain((1..row - 1).rev())
+        .cycle()
+        .zip(s.chars())
+        .collect();
+    v.sort_by_key(|&(r, _)| r);
+    v.iter().map(|(_, c)| c).collect()
 }
