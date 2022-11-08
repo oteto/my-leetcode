@@ -1,5 +1,6 @@
 #![allow(unused)]
 
+mod _10_hard_regular_expression_matching;
 mod _1_easy_two_sum;
 mod _2_medium_add_two_numbers;
 mod _3_medium_longest_substring_without_repeating_characters;
