@@ -3,6 +3,7 @@
 mod _10_hard_regular_expression_matching;
 mod _11_medium_container_with_most_water;
 mod _12_medium_integer_to_roman;
+mod _13_easy_roman_to_integer;
 mod _1_easy_two_sum;
 mod _2_medium_add_two_numbers;
 mod _3_medium_longest_substring_without_repeating_characters;
