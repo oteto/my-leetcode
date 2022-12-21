@@ -10,6 +10,7 @@ mod _1_easy_two_sum;
 mod _20_easy_valid_parentheses;
 mod _21_easy_merge_two_sorted_lists;
 mod _26_easy_remove_duplicates_from_sorted_array;
+mod _27_easy_remove_element;
 mod _2_medium_add_two_numbers;
 mod _3_medium_longest_substring_without_repeating_characters;
 mod _4_hard_median_of_two_sorted_arrays;
