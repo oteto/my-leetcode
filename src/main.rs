@@ -12,6 +12,7 @@ mod _21_easy_merge_two_sorted_lists;
 mod _26_easy_remove_duplicates_from_sorted_array;
 mod _27_easy_remove_element;
 mod _2_medium_add_two_numbers;
+mod _35_easy_search_insert_position;
 mod _3_medium_longest_substring_without_repeating_characters;
 mod _4_hard_median_of_two_sorted_arrays;
 mod _5_medium_longest_palindromic_substring;
